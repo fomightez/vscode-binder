@@ -26,7 +26,7 @@ My fork gets closer to restoring this by actually installing black with pip as t
   ```
 8. Now highlight your Python code, right-click and select 'Format Document' from menu that comes up, and it should format  it with black now!
 
-You could further enable to format upon saves, see https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0
+You could further enable to format upon saves, see Adam Lombard's post [VSCode: Using Black to automatically format Python](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0)
 
 ---------
 
@@ -34,7 +34,7 @@ You could further enable to format upon saves, see https://dev.to/adamlombard/ho
 
 #### Expected result when black is integrated within VS Code and 'Format Document' works:
 
-If you write the following code:
+If you write the following code (adpated from example shown [here](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0)):
 
 ```python
 print("test" )
