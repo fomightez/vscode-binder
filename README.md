@@ -16,15 +16,15 @@ My fork gets closer to restoring this by actually installing black with pip as t
 1. Launch a session using the `Launch binder` badgse above.
 2. Click the 'VS Code' button from the launcher. 
 3. Selecte Dark theme, if you prefer.
-4. Write ('Application Menu' ![fa-bars](documentation/bars-solid.svg) > 'File' > 'New File') or paste in some Python code and using 'Application Menu' (<img src="documentation/bars-solid.svg" width="50" height="50"> in upper left) >  'File' > 'Save as..' save the new Python file with `.py` extension. 
+4. Write ('Application Menu' (<img src="documentation/bars-solid.svg" width="10" height="10">) > 'File' > 'New File') or paste in some Python code and using 'Application Menu' (<img src="documentation/bars-solid.svg" width="10" height="10"> in upper left) >  'File' > 'Save as..' save the new Python file with `.py` extension. 
 5. Highlight code, right-click and select 'Format Document' from menu that comes up. In bottom left corner you'll see 'auto-pep8' not installed  for formatting/linting and options to chooser another formatter. Choose **Use black**! It will show in the corner 'no pip installer availabe in current environment.' Dismiss this message. We'll fix this by using settings in VS Code to point things at the installation that was put there in the build of the session.
-6. Click though 'Application Menu' >  `File` > `Preferences` > `Settings` to get settings window open. Start typing `python.format` in search bar at the top of this window and you should see  'Black Path' among the items listed. 
+6. Click though 'Application Menu' (<img src="documentation/bars-solid.svg" width="10" height="10">) >  `File` > `Preferences` > `Settings` to get settings window open. Start typing `python.format` in search bar at the top of this window and you should see  'Black Path' among the items listed. 
 7. Change what is in the bar below 'Black Path' one to be the following path:
 
   ```bash
   /srv/conda/envs/notebook/bin/black
   ```
-8. Now highlight your Python code, right-click and select 'Format Document' from menu that comes up (`Shift-otion-F` is shortcut on Mac), and it should format  it with black now!
+8. Now highlight your Python code, right-click and select 'Format Document' from menu that comes up (`Shift-option-F` is shortcut on Mac), and it should format the code with black now!
 
 You could further enable to format upon saves, see Adam Lombard's post [VSCode: Using Black to automatically format Python](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0).
 
