@@ -38,7 +38,7 @@ dict = {"apple": "red", "grape": 'purple',
     'orange':'orange', 'watermelon': 'green',
 'lemon':'yellow'   }
 ```
-Then right-clicl and select 'Format Document':
+Then right-click and select 'Format Document':
 
 You'll see it produce the following result:
 
