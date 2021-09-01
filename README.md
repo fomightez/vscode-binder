@@ -26,7 +26,7 @@ My fork gets closer to restoring this by actually installing black with pip as t
   ```
 8. Now highlight your Python code, right-click and select 'Format Document' from menu that comes up (`Shift-option-F` is shortcut on Mac), and it should format the code with black now!
 
-![demo_animation](vscode_black_format_demo.gif)
+![demo_animation](documentation/vscode_black_format_demo.gif)
 
 You could further enable to format upon saves, see Adam Lombard's post [VSCode: Using Black to automatically format Python](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0).
 
