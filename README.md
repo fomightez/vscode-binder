@@ -28,6 +28,10 @@ My fork gets closer to restoring this by actually installing black with pip as t
 
 You could further enable to format upon saves, see https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0
 
+---------
+
+---------
+
 #### Expected result when black is integrated within VS Code and 'Format Document' works:
 
 If you write the following code:
