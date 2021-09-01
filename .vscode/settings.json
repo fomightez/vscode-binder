@@ -8,5 +8,8 @@
         "**/.npm": true,
         "**/.yarn": true,
         "**/jupyter_vscode_proxy.egg-info": true
-    }
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/srv/conda/envs/notebook/bin/black"
 }
