@@ -34,7 +34,7 @@ If you write the following code:
 
 ```python
 print("test" )
-dict = {   "apple": "red", "grape": 'purple',
+my_dict = {   "apple": "red", "grape": 'purple',
     'orange':'orange', 'watermelon': 'green',
 'lemon':'yellow'   }
 ```
@@ -44,7 +44,7 @@ You'll see it produce the following result:
 
 ```python
 print("test")
-dict = {
+my_dict = {
     "apple": "red",
     "grape": "purple",
     "orange": "orange",
